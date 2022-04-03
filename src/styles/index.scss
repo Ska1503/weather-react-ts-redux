@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(#{--body-background-default});
+  transition: all .8s;
+}
+
+.app__container {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 0 15px;
+  transition: all .8s;
+}
+
+@import '~normalize.css'
